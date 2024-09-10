@@ -13,6 +13,7 @@
 
 body{
     width: 1160px;
+    margin: 0 auto;
 }
 
 H3{
@@ -115,7 +116,7 @@ address a{
     border-left: solid #782221 3px;
 }
 
-#titled{
+span{
     font-weight: bold
 }
 
@@ -139,4 +140,16 @@ address a{
 
 #social_networks img{
     max-height: 40px;
+}
+
+#social_networks img:hover{
+    opacity: 10%;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#poste1:hover, #poste2:hover, #poste3:hover, #diploma1:hover, #diploma2:hover, #skills ul li:hover{
+    border-right: solid #782221 2px;
 }
