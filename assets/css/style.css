@@ -17,3 +17,7 @@ title {
     border-radius: 50%;
     box-shadow: 0 0 40px #dbc2a4;
 }
+
+#profil img:hover{
+    cursor: zoom-in;
+}
