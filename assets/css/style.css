@@ -15,44 +15,19 @@ body{
     width: 1160px;
 }
 
-H3 {
+H3{
     font-family: lato;
     color: black;
     background-color: #dbc2a4;
-    padding-left: 3px;
+    padding-left: 20px;
+    margin-left: none;
 }
 
-title {
+title{
     display: none;
 }
 
-#stubborn {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: #782221;
-}
-
-#contact {
-    background-color: #2c1d27;
-    display: flex;
-    flex-direction: row;
-    flex-basis: 100%;
-    justify-content: space-around;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-address a{
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-}
-
-#profil {
+#profil{
     max-height: 200px;
     max-width: 200px;
 }
@@ -70,35 +45,96 @@ address a{
     cursor: zoom-in;
 }
 
-#cv_body {
+#stubborn{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #782221;
+}
+
+#contact{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #2c1d27;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-#part_left {
+
+#residence{
+    flex: 1 1 0;
+}
+
+#mail{
+    flex: 1 1 0;
+    text-align: center;
+}
+
+#phone_number{
+    flex: 1 1 0;
+    text-align: right;
+}
+
+address a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+#cv_body{
+    display: flex;
+    flex-direction: row;
+    padding: none;
+    margin: none;
+}
+#part_left{
+    color:white;
     background-color: #782221;
     width: 30%;
+    padding-left: 0px;
+    margin-left: 0;
+    padding-right: 30px;
 }
 
-#general {
-    color:white;
-    padding: 10px;
-}
-
-#about p {
+#about p{
     text-indent: 3em;
+    padding-left: 20px;
+    text-align: justify;
 }
 
-#part_right {
+#part_right{
     border-right: solid black 2px;
     width: 70%;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
-#experience H3 {
+#part_right H3{
     border-left: solid #782221 3px;
 }
 
-#titled {
+#titled{
     font-weight: bold
+}
+
+#footer{
+    background-color: #782221;
+    justify-content: center;
+    align-items: center;
+}
+
+#social_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+}
+
+#update{
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
 }
 
 #social_networks img{
