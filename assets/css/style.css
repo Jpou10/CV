@@ -1,8 +1,35 @@
+/* Pour les titres */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Pour les contenus*/
+@font-face {
+    src: url("../polices/raleway/Raleway-Regular.woff") format("woff"), url("../polices/raleway/Raleway-Regular.ttf") format("truetype");
+    font-family: "Raleway";
+  }
+
 *{
-    max-width: 1160px;
+    font-family: raleway;
 }
+
+H3 {
+    font-family: lato;
+}
+
+body{
+    width: 1160px;
+}
+
 title {
     display: none;
+}
+
+#stubborn {
+    background-color: #782221;
+}
+
+#contact_details a{
+    text-decoration: none;
+    color:black;
 }
 
 #profil {
@@ -20,4 +47,8 @@ title {
 
 #profil img:hover{
     cursor: zoom-in;
+}
+
+aside {
+    background-color: #782221;
 }
